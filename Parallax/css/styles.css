@@ -1,0 +1,133 @@
+#header-nav{
+    border: none;
+    border-radius: 0;
+    background-color: #102c52;
+    margin: 0;
+    /* height: 150px; */
+}
+
+#logo-img{
+    background: url('../Images/rsz_whatsapp_image_2020-07-12_at_32642_am.png') no-repeat;
+    width: 130px;
+    height: 130px;
+    margin: 20px 10px 20px 15px;
+    border-radius: 50%;
+}
+
+.navbar-brand{
+    padding-top: 25px;
+}
+
+.navbar-brand h1{
+    font-family: 'Oxygen', serif;
+    color: #eee4e4;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    line-height: .75;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    /* margin-left: 20px; */
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+
+#menu-list{
+    padding-top: 10px;
+}
+#menu-list li{
+    margin: 5px;
+}
+#menu-list a{
+    color: #ffffff;
+    text-align: center;
+}
+#menu-list a:hover{
+    background-color: #345e8f;
+}
+#menu-list a span{
+    font-size: 1.5em;
+}
+
+
+
+
+
+body, html{
+    height: 100%;
+    margin: 0;
+    opacity: 0.85;
+    line-height: 1.8em;
+    font-size: 20px;
+    font-family: 'Oxygen', serif;
+}
+
+
+
+body .img1{
+    background-image: url("https://source.unsplash.com/1600x900/?parking");
+    min-height: 100%;
+    /* width: 100%; */
+}
+
+body .img2{
+    background-image: url("https://source.unsplash.com/1600x900/?car accident");
+    min-height: 400px;
+    /* width: 100%; */
+}
+
+body .img3{
+    background-image: url("https://source.unsplash.com/1600x900/?space");
+    min-height: 400px;
+    /* width: 100%; */
+}
+.img1, .img2, .img3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+
+.line{
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    /* opacity: .9; */
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.line .box{
+    background-color: #111;
+    padding: 10px;
+    letter-spacing: 8px;
+    /* background-color: transparent; */
+}
+
+.line .box .box-trans{
+    background-color: transparent;
+}
+
+.content{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.content1{
+    background-color: rgb(218, 209, 209);
+}
+
+.content2{
+    background-color: #282e34;
+    color: white;
+}
+.content3{
+    background-color: #282e34;
+    color: white;
+}
