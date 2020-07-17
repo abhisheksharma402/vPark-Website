@@ -35,24 +35,38 @@
 }
 
 #menu-list{
-    padding-top: 10px;
+    /* padding-top: 10px;
+    margin: 15px;
+    margin-left: 150px; */
+    margin-top: 20px;
 }
-#menu-list li{
-    margin: 5px;
-}
+
 #menu-list a{
     color: #ffffff;
     text-align: center;
+    margin-left: 0;
 }
+/* #menu-list li{
+    float: left;
+} */
 #menu-list a:hover{
-    background-color: #345e8f;
+    background-color: #779cd4;
 }
 #menu-list a span{
     font-size: 1.5em;
 }
+#menu-list .active{
+    background-color: #779cd4;
+}
 
+.navbar-header button.navbar-toggle, .navbar-header span.icon-bar{
+    border: 1px solid #779cd4;
+}
 
-
+.navbar-header button.navbar-toggle{
+    clear: both;
+    margin-top:-30px;
+}
 
 
 body, html{
@@ -65,6 +79,53 @@ body, html{
 }
 
 
+#step1, #step2, #step3, #step4, #step5, #step6,#step7{
+    background-color: rgb(75, 150, 185);
+    height: 120px;
+    width: 100%;
+    margin: 5px;
+}
+#step1 h1, #step2 h1, #step3 h1, #step4 h1, #step5 h1, #step6 h1, #step7 h1{
+    font-size: 0.9em;
+    margin-top: 0;
+    text-align: center;
+    margin: 0px 5px;
+    padding: 0px 5px;
+    color: rgb(0, 0, 0);
+
+} 
+#step1 h2, #step2 h2, #step3 h2, #step4 h2, #step5 h2, #step6 h2, #step7 h2{
+    font-size: 1.1em;
+    color: rgb(0, 0, 0);
+    font-weight: 50;
+} 
+#down{
+    margin-left: 65px;
+}
+#step1, #step2, #step3, #step4{
+    /* margin-bottom: -25px; */
+}
+
+/* .glyphicon{
+    float: left;
+    padding: 55px;
+    font-size: 1.5em;
+} */
+
+#row2 {
+    margin-left: 105px;
+    margin-top: 10px;
+}
+.next {
+    float: left;
+    padding: 0px;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+#steps{
+    padding-bottom: 20px;
+}
 
 body .img1{
     background-image: url("https://source.unsplash.com/1600x900/?parking");
@@ -120,7 +181,7 @@ body .img3{
 }
 
 .content1{
-    background-color: rgb(218, 209, 209);
+    background-color: #102c52;
 }
 
 .content2{
@@ -130,4 +191,36 @@ body .img3{
 .content3{
     background-color: #282e34;
     color: white;
+}
+
+
+@media(max-width: 767px)
+{
+    #collapsable-nav a{
+        font-size: 1.2em;
+        text-align: center;
+    }
+    #collapsable-nav a span{
+        font-size: 1em;/*Relative to the parent element 'a' which is already assigned a font-size of 1.2. All this because we want the size of glyph icons to be the same as their Descriptive words. So 1.2*1 = 1.2em */
+        margin-right: 5px;
+    }
+    #collapsable-nav a:hover{
+        background-color: #779cd4;
+    }
+
+    /* .navbar-header .navbar-brand{
+        padding-left: 100px;
+    } */
+    #header-nav .navbar-nav li.active > a {/*IMPORTANT*/
+        background-color: #779cd4;
+    }
+}
+
+@media (min-width: 992px){
+    .col-md-3{
+        width: 21%;
+    }
+    .col-md-4{
+        width: 25%;
+    }
 }
